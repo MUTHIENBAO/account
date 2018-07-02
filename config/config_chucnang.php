@@ -1,0 +1,29 @@
+<?php
+$Use_VIP	= 0;
+$Use_QuestDaily	= 1;
+$Use_ChoTroi	= 1;
+$Use_TienTe	= 1;
+$Use_Event	= 1;
+$Use_XepHang	= 1;
+$buats_use	= 1;
+$Use_title	= 1;
+$Use_TuLuyen	= 1;
+$Use_SongTu	= 1;
+$Use_LockItem	= 1;
+$Use_ResetVIP	= 1;
+$Use_UyThacOffline	= 1;
+$Use_ChangeName	= 1;
+$Use_CuongHoa	= 1;
+$Use_HoanHaoHoa	= 1;
+$Use_CardViettel	= 1;
+$Use_CardMobi	= 1;
+$Use_CardVina	= 1;
+$Use_ShopTapHoa	= 1;
+$Use_ShopVeEvent	= 1;
+$Use_Gcoin2Vpoint	= 1;
+$Use_Vpoint2Gcoin	= 1;
+$Use_Gcoin2WCoin	= 1;
+$Use_IPBonus2PCPoint	= 1;
+$Use_GiaiTri_Lo	= 1;
+$Use_GiaiTri_De	= 1;
+?>

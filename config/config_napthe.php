@@ -1,0 +1,32 @@
+<?php
+$menhgia10000	= 10000;
+$menhgia20000	= 20000;
+$menhgia30000	= 30000;
+$menhgia50000	= 50000;
+$menhgia100000	= 100000;
+$menhgia200000	= 200000;
+$menhgia300000	= 300000;
+$menhgia500000	= 520000;
+$menhgia1000000	= 1050000;
+$reset_1	= 30;
+$slg_card_1	= 100;
+$reset_2	= 50;
+$slg_card_2	= 100;
+$reset_3	= 80;
+$slg_card_3	= 100;
+$reset_4	= 100;
+$slg_card_4	= 100;
+$slg_card_max	= 100;
+$khuyenmai_gate	= 5;
+$khuyenmai_vtc	= 0;
+$khuyenmai_begin	= '2016-06-24';
+$khuyenmai_end	= '2016-06-26';
+$khuyenmai_phantram	= 50;
+$khuyenmai_week_phantram[1]	= 0;
+$khuyenmai_week_phantram[2]	= 0;
+$khuyenmai_week_phantram[3]	= 0;
+$khuyenmai_week_phantram[4]	= 0;
+$khuyenmai_week_phantram[5]	= 0;
+$khuyenmai_week_phantram[6]	= 5;
+$khuyenmai_week_phantram[0]	= 5;
+?>

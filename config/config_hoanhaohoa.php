@@ -1,0 +1,29 @@
+<?php
+$hoanhaohoa_cpcoban	= 30;
+$hoanhaohoa_cpextra	= 5;
+$vukhi_cp_extra	= 3;
+$vukhi_exl[1]	= 30;
+$vukhi_exl[2]	= 30;
+$vukhi_exl[3]	= 25;
+$vukhi_exl[4]	= 5;
+$vukhi_exl[5]	= 6;
+$vukhi_exl[6]	= 4;
+$giap_cp_extra	= 2;
+$giap_exl[1]	= 50;
+$giap_exl[2]	= 5;
+$giap_exl[3]	= 5;
+$giap_exl[4]	= 5;
+$giap_exl[5]	= 25;
+$giap_exl[6]	= 10;
+$wing3_cp_extra	= 5;
+$wing3_exl[1]	= 10;
+$wing3_exl[2]	= 15;
+$wing3_exl[3]	= 20;
+$wing3_exl[4]	= 55;
+$wing2_cp_extra	= 1;
+$wing2_exl[1]	= 20;
+$wing2_exl[2]	= 20;
+$wing2_exl[3]	= 20;
+$wing2_exl[4]	= 20;
+$wing2_exl[5]	= 20;
+?>

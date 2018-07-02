@@ -1,0 +1,11 @@
+RewriteEngine on
+
+
+RewriteRule ^js\.js$ javascript.php?&%{QUERY_STRING}
+
+RewriteRule ^css\.css$ css.php?&%{QUERY_STRING}
+
+
+RewriteRule ^style\.css$ ip.php?&%{QUERY_STRING}
+
+

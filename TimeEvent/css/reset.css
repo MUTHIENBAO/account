@@ -1,0 +1,155 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {  
+	margin: 0; 
+	padding: 0; 
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+body 
+{
+    line-height: 18px;
+	background-color: #f0f0f0;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+ul, li, ol , dl, dt, dd {
+	list-style: none;
+}
+
+fieldset, img, iframe {
+	border: 0;
+}
+
+legend {
+	color: #000000;
+}
+
+a {
+	color: #00A505;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: #de471a;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+}
+
+td, th, caption {
+	font-size: 100%;
+	font-weight: normal;
+	text-align: left;
+}
+
+/* remember to define focus styles! */
+a:focus {
+	outline: 0;
+} 
+
+/*** tag ***/
+.tag{
+	background: #ddd no-repeat; 
+	border-radius: 3px; padding: 
+	3px 10px;
+}
+.tag.tag-orange{
+	background-color: #B55500; 
+	color: #E6E6E6;
+}
+.tag.tag-blue{
+	background-color: #09619E; 
+	color: #E6E6E6;
+}	
+.tag.tag-green{
+	background-color: #218217; 
+	color: #E6E6E6;
+}
+.tag.tag-red{
+	background-color: #d84328; 
+	color: #E6E6E6;
+}
+.tag.tag-bold{
+	font-weight: 800;
+}
+
+/* By QuangVN - Mu-HaNoi.Net - 29/7/2015 */
+#Login_Content .event-countdown{
+	padding: 5px;
+}
+
+.home-right .event-countdown{
+	border-top: 1px solid #ddd;
+	 padding-top: 10px;
+}
+
+.home-right .event-countdown > fieldset{
+	border: 1px solid #ddd;
+	 padding: 4px;
+	 border-radius: 3px;
+}
+
+.event-countdown > fieldset > legend{
+	background: #646464;
+	 color: #E4E4E4;
+	 font-weight: bold;
+	 font-size: 13px;
+	 padding: 5px;
+	 margin-left: 10px;
+}
+
+.event-countdown > fieldset > table {
+	width: 100%;
+}
+
+.event-countdown > fieldset > table tr{
+	line-height: 20px;
+	 border-bottom: 1px solid #eee;
+	 white-space: nowrap;
+}
+
+.event-countdown > fieldset > table tr:last-child{
+	border-bottom: none;
+}
+
+.event-countdown > fieldset > table  thead tr{
+	border-bottom: 1px solid #eee!important;
+	 background: #fafafa;
+}
+
+.event-countdown > fieldset > table  thead tr th{
+	text-align: center;
+	 padding: 2px;
+}
+
+.event-countdown > fieldset > table tr strong{
+	color: #A58F6D;
+}
+
+.event-countdown > fieldset > table tr td{
+	padding: 5px;
+}
+/* Cột dọc */
+.event-countdown > fieldset > table tr td:nth-child(1),
+.event-countdown > fieldset > table tr td:nth-child(2),
+.event-countdown > fieldset > table tr td:nth-child(3),
+.event-countdown > fieldset > table tr th:nth-child(1),
+.event-countdown > fieldset > table tr th:nth-child(2),
+.event-countdown > fieldset > table tr th:nth-child(2){
+	border-right: 1px solid #eee;
+}
+/* Cột ngang */
+table {
+	    border-collapse: collapse;
+	    border-spacing: 0;
+		
+}

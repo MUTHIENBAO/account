@@ -1,0 +1,1 @@
+[{"name":"1 Pet Panda + 1 Ring Panda","gift":[{"itemcode":"4C00FFFFFFFFFF0000D00000000000005000FFFFFFFFFF0000D0000000000000","gcoin_km":0,"vpoint_km":0,"bank_zen":0,"bank_chao":0,"bank_cre":0,"bank_blue":0,"phucloi_point":0,"des":"1 Pet Panda + 1 Ring Panda","rate":100,"tyle":10000,"rate_from":1,"rate_to":100}]}]

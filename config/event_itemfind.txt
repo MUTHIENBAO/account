@@ -1,0 +1,1 @@
+[{"name":"Event \u0111\u1ed5i Item 1","itemfind_stat":null,"itemfind_item_source_slg":1,"itemfind_item_source":[{"name":"\u00c1o B\u1ea1c","code":"00002200000000000080000000000000","slg":1,"exl":"9","lvl":"4","option":"1","des":"\u00c1o \u0110\u1ed3ng","img":"0800000"}]}]

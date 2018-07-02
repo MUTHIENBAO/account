@@ -1,0 +1,749 @@
+﻿/*******************************************************************
+    libs
+ */
+.clear-both 
+{
+    clear: both;
+}
+
+/*******************************************************************
+    main-body
+ */
+#main-body {
+	    font-family: Segoe UI, Tahoma, Arial;
+}
+
+/*******************************************************************
+    main-body >> head-page
+ */
+#main-body #head-page 
+{
+    overflow: hidden;
+}
+
+#head-page #header 
+{
+    margin: 0 auto;
+    background: #173e67 url(../images/header-bg.png) no-repeat top left;    
+    height: 99px;
+    width: 960px;
+}
+
+#head-page #header .goto-home 
+{
+    width: 310px;
+    height: 99px;
+    cursor: pointer;
+    padding-left: 70px;
+}
+
+/*******************************************************************
+    main-body >> foot-page
+ */
+#main-body #foot-page 
+{
+    overflow: hidden;
+}
+
+#main-body #foot-page .footer
+{    
+    margin: 0 auto;
+    width: 960px;    
+    overflow: hidden;
+    background-color: #e2e2e2;
+}
+
+#main-body #foot-page .footer .top 
+{
+    background: transparent url(../images/footer-top-left-corner.jpg) no-repeat left top;
+    padding-left: 10px;
+}
+
+#main-body #foot-page .footer .top .right 
+{
+    background: transparent url(../images/footer-top-right-corner.jpg) no-repeat right top;
+}
+
+#main-body #foot-page .footer .top .right .body 
+{
+    background: transparent url(../images/footer-top-body.jpg) repeat-x;
+    height: 10px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+#main-body #foot-page .footer .main 
+{
+    height: 65px;
+    width: 958px;
+    border-left: solid 1px #cbcbcb;
+    border-right: solid 1px #cbcbcb;
+    border-bottom: solid 1px #cbcbcb;
+}
+
+#main-body #foot-page .footer .main  .logo
+{
+    background: transparent url(../images/footer-logo.jpg) no-repeat top left;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 200px;
+    height: 44px;
+    float: left;
+}
+
+#main-body #foot-page .footer .main  .info
+{
+    width: 500px;
+    float: right;
+    padding-right: 10px;
+}
+
+#main-body #foot-page .footer .main  .info p
+{
+    text-align: right;
+    font-size: 11px;    
+}
+
+#main-body #foot-page .footer .main  .info p.hotline
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*******************************************************************
+    main-body >> main-page
+ */
+#main-body #main-page 
+{
+    
+}
+
+/*******************************************************************
+    main-body >> main-page >> container
+ */
+#main-body #main-page #container 
+{ 
+    margin: 0 auto;
+    width: 960px;
+    overflow: hidden;
+}
+
+/*******************************************************************
+    main-body >> main-page >> container >> home
+ */
+#main-body #main-page #container #home 
+{
+    padding: 10px 10px 0 10px;
+    width: 940px;
+}
+
+#home .home-banner
+{    
+    background: transparent url(../images/home-banner-bg.jpg) no-repeat top left;
+    width: 940px;
+    height: 249px;
+    margin-bottom: 10px;
+}
+
+#home .home-content
+{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#home .home-content .left-box
+{
+    background: transparent url(../images/home-left-box.jpg) no-repeat top left;
+    width: 300px;
+    height: 253px;
+    float: left;
+}
+
+#home .home-content .center
+{
+    width: 300px;
+    height: 253px;
+    float: left;
+    margin-left: 20px;
+}
+
+#home .home-content .center .box
+{
+    background: transparent url(../images/home-center-box-bg.jpg) no-repeat top left;
+    width: 300px;
+    height: 120px;    
+}
+
+#home .home-content .center .price
+{
+    margin-bottom: 12px;    
+}
+
+#home .home-content .center .box .left
+{
+    width: 100px;
+    height: 120px;
+    float: left;
+}
+
+#home .home-content .center .price .logo
+{
+    background: transparent url(../images/home-center-box-price-logo.jpg) no-repeat top left;
+    width: 91px;
+    height: 103px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#home .home-content .center .box .content
+{
+    width: 180px;
+    float: left;
+    padding-top: 24px;
+    padding-left: 15px;
+}
+
+#home .home-content .center .box .content p span.point
+{
+    color: #115d8d; 
+    font-size: 14px;
+    margin-left: 5px;   
+}
+
+#home .home-content .center .box .content p span.nct
+{
+    font-size: 13px;
+}
+
+#home .home-content .center .box .content p span 
+{
+    color: #666666;
+    font-weight: bold;
+}
+
+#home .home-content .center .box .content .top
+{
+    padding-bottom: 10px;
+}
+
+#home .home-content .center .box .content .button 
+{
+    background: transparent url(../images/dotted.jpg) repeat-x top left;
+    width: 172px;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+#home .home-content .center .info .logo
+{
+    background: transparent url(../images/home-center-box-info-logo.jpg) no-repeat top left;
+    width: 91px;
+    height: 103px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#home .home-content .right-box
+{
+    background: transparent url(../images/home-right-box-bg.jpg) no-repeat top left;
+    width: 300px;
+    height: 253px;
+    float: left;
+    margin-left: 20px;
+}
+
+#home .home-content .right-box .title 
+{
+    background: transparent url(../images/home-right-box-left-corner.jpg) no-repeat left top;
+    padding-left: 27px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 253px;
+}
+
+#home .home-content .right-box .title .right 
+{
+    background: transparent url(../images/home-right-box-right-corner.jpg) no-repeat right top;
+}
+
+#home .home-content .right-box .title .body 
+{
+    background: transparent url(../images/home-right-box-body-corner.jpg) repeat-x;
+    height: 29px;
+    margin: 0 9px 0 0;
+    overflow: hidden;
+}
+
+#home .home-content .right-box .title .body span
+{
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+
+#home .home-content .right-box .cooperative
+{
+    color: #666666;
+    font-size: 11px;
+    width: 280px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background: transparent url(../images/dotted.jpg) repeat-x top left;
+}
+
+#home .home-content .right-box .slideshow
+{    
+    width: 280px;
+    height: 94px;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+#home .home-content .right-box .slideshow .mask {
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+    height: 94px;    
+}
+
+#home .home-content .right-box .slideshow .mask ul {
+    position: absolute;
+    width: 3000px;
+}
+
+#home .home-content .right-box .slideshow .mask ul li {
+    background-color: #fff;
+    float: left;    
+    margin: 0 5px 0 5px;
+    overflow: hidden;
+    padding-left: 6px;
+    width: 122px;
+    height: 94px;
+}
+
+#home .home-content .right-box .slideshow .mask ul li img 
+{
+    border: solid 1px #cfcfcf;
+    width: 120px;
+    height: 92px;
+}
+
+/*******************************************************************
+    main-body >> main-page >> container >> body-box
+ */
+#main-body #main-page #container #body-box
+{
+    padding: 10px 0 0 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#body-box .top 
+{
+    background: transparent url(../images/top-left-corner.jpg) no-repeat left top;
+    padding-left: 10px;
+}
+
+#body-box .top .right 
+{
+    background: transparent url(../images/top-right-corner.jpg) no-repeat right top;
+}
+
+#body-box .top .right .body 
+{
+    background: transparent url(../images/top-body.jpg) repeat-x;
+    height: 8px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+#body-box .bottom 
+{
+    background: transparent url(../images/bottom-left-corner.jpg) no-repeat left top;
+    padding-left: 10px;
+}
+
+#body-box .bottom .right 
+{
+    background: transparent url(../images/bottom-right-corner.jpg) no-repeat right top;
+}
+
+#body-box .bottom .right .body 
+{
+    background: transparent url(../images/bottom-body.jpg) repeat-x top left;
+    height: 8px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+#body-box .main
+{
+    border-right: 1px solid #CBCBCB;
+    border-left: 1px solid #CBCBCB;
+    width: 938px;  
+    padding: 0 10px;
+    background-color: #fff;  
+}
+
+#body-box .main .title
+{
+	overflow: hidden;
+	width: 100%;	
+}
+
+#body-box .main .title .icon
+{      
+    height: 40px;
+    padding-left: 48px;
+}
+
+#body-box .main .title .ico-1
+{
+	background: transparent url(../images/title-icon-01.jpg) no-repeat top left;
+	float: left;
+	width: 700px;
+}
+
+#body-box .main .title .ico-2
+{
+	background: transparent url(../images/title-icon-02.jpg) no-repeat center left;
+	float: left;
+	width: 700px;
+}
+
+#body-box .main .title .goto-home
+{
+	background: transparent url(../images/goto-home.gif) no-repeat center left;
+	float: right;
+	width: 80px;
+	padding-left: 20px;
+	position: relative;
+	top: 10px;
+}
+
+#body-box .main .title .icon span
+{
+    color: #0b5987;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#body-box .main .title .bg-line-color
+{
+    height: 29px;
+    background-color: #f2f2f2;
+    clear: both;
+    overflow: hidden;
+}
+
+#body-box .main .info
+{
+    padding: 10px 50px 0 50px;
+}
+
+#body-box .main .info ul li
+{
+    background: transparent url(../images/pointer.jpg) no-repeat left 8px;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+#body-box .main .chart 
+{
+    padding: 10px 50px 0 50px;
+}
+
+#body-box .main .chart .row
+{
+    height: 220px;
+}
+
+#body-box .main .chart .row .left 
+{
+    width: 300px;
+    float: left;
+}
+
+#body-box .main .chart .row .right 
+{
+    width: 428px;
+    float: left;
+    margin-left: 100px;
+}
+
+#body-box .main .contact
+{
+    text-align: center;
+    padding: 5px 0; 
+}
+
+#body-box .main .contact span.hotline
+{
+    font-size: 20px;
+    color: Red;
+    font-weight: bold;
+}
+
+/* 
+    main-body >> main-page >> container >> main >> price-home-box
+ */
+#body-box .main .price-box
+{
+    padding: 5px 0 0 0;
+}
+
+#body-box .main .price-box table
+{
+    background-color: #f1f1f1;    
+}
+
+#body-box .main .price-box table td.center
+{
+    text-align: center;
+	font-size: 12px;
+}
+
+#body-box .main .price-box table td.right
+{
+    text-align: right;
+}
+
+#body-box .main .price-box table td.boldleft
+{
+    text-align: left;
+    font-weight: bold; 
+}
+
+#body-box .main .price-box table thead tr td {
+    border: 1px solid #C1C1C1;
+    color: #FFF;
+    padding: 8px 10px;
+    font-weight: bold;
+	font-size: 12px;
+}
+
+#body-box .main .price-box table tbody tr td {
+    border: 1px solid #C1C1C1;
+    color: #666666;
+    padding: 8px 10px;
+}
+
+#body-box .main .price-box .download
+{
+	padding: 10px 0;
+	text-align: right;
+}
+
+#body-box .main .price-box .note
+{
+	padding: 5px 10px 5px 10px;
+}
+
+#body-box .main .price-box ul li
+{
+	margin-left: 40px;
+	list-style-type: disc; 
+	list-style-position: inside;
+}
+
+/**/
+#body-box .main #position .tab
+{
+	background-color: #D3DDC4;
+	height: 35px;
+	padding: 0 0 0 120px;
+}
+
+#body-box .main #position .tab ul
+{
+	padding-top: 7px;
+}
+
+#body-box .main #position .tab ul li
+{
+	float: left;
+	margin-right: 20px;
+}
+
+#body-box .main #position .tab ul li a
+{
+	padding: 5px 20px;
+	background-color: #F1F1F1;
+	font-weight: bold;
+	display: block;
+}
+
+#body-box .main #position .tab ul li a:hover
+{
+	background-color: #fff;
+}
+
+#body-box .main #position .tab ul li .active
+{	
+	background-color: #fff;
+	font-weight: bold;
+}
+
+#body-box .main #position .content
+{	
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 812px;
+	overflow: hidden;
+}
+
+.goto-top
+{
+	padding: 20px 5px 5px 5px;
+	text-align: right;
+	right:5px;	
+}
+/* 28/12/2013 */
+.importantMessage {
+    background-color: #FFF4E5;
+    border: 1px solid #EFC38A;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    margin: 10px 0;
+    padding: 10px;
+	width:auto;
+    line-height: 20px;
+}
+.importantMessage li{
+	margin-top:5px;
+}
+.thumb {
+	float: left;
+	border: 3px solid #FFF;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+.thumb img {
+	width: 250px;
+}
+/* 24/1/2014 */
+table.payment{
+    background: #fff;
+	width:100%;
+	text-align:center;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-family:Segoe UI, Tahoma;
+	font-size:13px;
+}
+
+table.payment td{
+	padding:5px;
+	border:1px solid #ccc;
+	border-left:0px;
+	border-bottom:0px;
+	line-height:25px;
+}
+/* 27/12/2014 */
+#block-left, #block-right{
+    font-family: Segoe UI, Tahoma, Arial;
+    width:46%;
+    margin-right:43px;
+    float:left;
+	/*
+    background:#8BAB8D;
+    border: 3px solid #6C996F;
+	
+	background:#05C6FF;
+    border: 3px solid #00FFD8;
+    padding:5px;
+    color:#fff;
+	*/
+    height:280px;
+}
+
+#block-left:hover{
+    box-shadow: 0 0 8px #1E94AF;
+    border-radius:3px;
+}
+
+#block-right:hover{
+    box-shadow: 0 0 8px #1E94AF;
+    border-radius:3px;
+}
+
+#block-left li{
+    list-style: none;
+    background:url(http://i.imgur.com/zhT8tNz.png) no-repeat;
+    padding-left:20px;
+    margin-top:15px;
+}
+
+#block-right{
+    margin-right:0px;
+	/*
+    background:#3194AA;
+    border: 3px solid #27798C;
+	*/
+}
+
+#block-right li{
+    list-style: none;
+    background:url(http://i.imgur.com/2FpV1gn.png) no-repeat;
+    padding-left:20px;
+    margin-top:15px;
+    }
+	
+#box #left-box{
+	width:330px;
+	float:left;
+	margin-right:8px;
+}
+
+#box #right-box{
+	width:600px;
+	float:left;
+}	
+	
+table.data{
+	width:100%;
+	text-align:center;
+	border:1px solid #ccc;
+	border-right:0px;
+	font-family:Segoe UI, Tahoma;
+	font-size:13px;
+}
+
+table.data th{
+	background: -moz-linear-gradient(
+		top,
+		#a7cc38 0%,
+		#8ba432);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#00E2FF),
+		to(#3263A4));
+	padding:10px;
+}
+
+table.data td{
+	padding:5px;
+	border:1px solid #ccc;
+	border-left:0px;
+	border-bottom:0px;
+	background:#EDF8DA;
+}
+
+table.data td:hover{
+	background:#C7E7AB;
+	color:green;
+}
+

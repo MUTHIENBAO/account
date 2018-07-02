@@ -1,0 +1,32 @@
+<?php
+$event1_itemdrop1_code	= '0B2800123456780000E0000000000000';
+$event1_itemdrop1_name	= 'Huy chương Bạc';
+$event1_itemdrop2_code	= '0B3000123456780000E0000000000000';
+$event1_itemdrop2_name	= 'Huy chương Vàng';
+$event1_itemshop_code	= '0C0800123456780000E0000000000000';
+$event1_itemshop_name	= 'Heart';
+$event1_loai1_slg	= 1000;
+$event1_loai1_daily_slg	= 100;
+$event1_loai1_zen1	= 1000000;
+$event1_loai1_zen2	= 2000000;
+$event1_loai1_point1_min	= 0;
+$event1_loai1_point1_max	= 1;
+$event1_loai1_point2_min	= 0;
+$event1_loai1_point2_max	= 2;
+$event1_loai2_slg	= 1000;
+$event1_loai2_daily_slg	= 100;
+$event1_loai2_itemshop_slg1	= 1;
+$event1_loai2_point1_min	= 1;
+$event1_loai2_point1_max	= 1;
+$event1_loai2_itemshop_slg2	= 3;
+$event1_loai2_point2_min	= 1;
+$event1_loai2_point2_max	= 2;
+$event1_loai3_slg	= 1000;
+$event1_loai3_daily_slg	= 100;
+$event1_loai3_gcoin1	= 1200;
+$event1_loai3_gcoin2	= 1500;
+$event1_loai3_point1_min	= 1;
+$event1_loai3_point1_max	= 2;
+$event1_loai3_point2_min	= 2;
+$event1_loai3_point2_max	= 3;
+?>
