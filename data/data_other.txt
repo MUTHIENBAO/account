@@ -1,1 +1,1 @@
-{"kudnun":{"timecheck":1530520510,"data":null}}
+{"kudnun":{"timecheck":1530853140,"data":null}}

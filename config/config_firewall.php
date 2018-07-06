@@ -1,6 +1,6 @@
 <?php
 $conf['path']	= 'firewall';
-$use_antiddos	= 1;
+$use_antiddos	= 0;
 $conf['maxaccess']	= 10;
 $conf['interval']	= 1;
 $conf['requests']	= 100;

@@ -1,9 +1,9 @@
 /*begin*/
-msg_focus_user = "<p style='color: red; font-size: 10px;'>Chỉ sử dụng chữ thường và số trong khoảng 4-10 ký tự</p>";
-msg_focus_pass = "<p style='color: red; font-size: 10px;'>Chỉ sử dụng chữ và số trong khoảng 4-32 ký tự</p>";
+msg_focus_user = "<p style='color: red; font-size: 10px;'>Chỉ sử dụng CHỮ THƯỜNG VÀ SỐ trong khoảng 4-10 ký tự</p>";
+msg_focus_pass = "<p style='color: red; font-size: 10px;'>Chỉ sử dụng CHỮ VÀ SỐ trong khoảng 4-32 ký tự</p>";
 msg_focus_mail = "<p style='color: red; font-size: 10px;'>Email hợp lệ dạng muonline@muthienbao.net</p>";
 msg_focus_quest = "<p style='color: red; font-size: 10px;'>Chưa chọn câu hỏi</p>";
-msg_focus_answer = "<p style='color: red; font-size: 10px;'>Chưa nhập câu trả lời</p>";
+msg_focus_answer = "<p style='color: red; font-size: 10px;'>Chỉ sử dụng CHỮ VÀ SỐ trong khoảng 4-50 ký tự</p>";
 msg_focus_sno = "<p style='color: red; font-size: 10px;'>7 số bí mật dùng để thoát Guild</p>";
 msg_focus_phone = "<p style='color: red; font-size: 10px;'>Số điện thoại dùng để xác minh tài khoản</p>";
 msg_focus_vimage = "<p style='color: red; font-size: 10px;'>Nhập 6 ký tự xác nhận</p>";
@@ -116,7 +116,7 @@ function onBlur_check_quest() {
 		document.getElementById("quest").style = error_style;
 		return 1;
 	}
-	else if(!answer.length) {
+	else if(!filter_chuso.test(answer) || answer.length < 4 || answer.length > 50) {
 		document.getElementById("msg_quest").innerHTML = "";
 		document.getElementById("quest").style = normal_style;
 		document.getElementById("msg_ans").innerHTML = msg_focus_answer;
@@ -146,7 +146,7 @@ function onBlur_check_sno(id_input, id_msg) {
 
 function onBlur_check_phone(id_input, id_msg) {
 	var phone = document.getElementById(id_input).value;
-	if(!filter_so.test(phone) || phone.length == 10 || phone.length == 11) {
+	if(!filter_so.test(phone) || phone.length < 10 || phone.length > 11) {
 		document.getElementById(id_msg).innerHTML = msg_focus_phone;
 		document.getElementById(id_input).style = error_style;
 		return 1;

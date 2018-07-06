@@ -55,7 +55,9 @@ $files_template = array(
         </div>
 
 
-        <?php if(isset($_SESSION['mu_username'])) { ?>
+        <?php if(isset($_SESSION['mu_username'])) {
+ ?>
+
         <div class="money_block">
             <span class="money_sub money_tit">Tiền tệ: </span>
             <span class="money_sub money_gc" title="GCent hiện có" id="head_gcoin"><?php echo isset($_SESSION['acc_gcoin']) ? number_format($_SESSION['acc_gcoin'], 0, ',', '.') : 0; ?></span>
@@ -155,6 +157,17 @@ $files_template = array(
                     </div>
                 </div>
             </div>
+             <script>
+    $(document).ready(function(){
+                 if( $(".wrap-fluid").hasClass('left-collap') ){
+
+
+            $(".wrap-fluid").removeClass('left-collap');
+    }
+    })
+
+   
+ </script>
             <?php }//END check LOGIN ?>
 
             <?php
@@ -276,6 +289,6 @@ $files_template = array(
     </div>
 </div>
 <!--<div class="loading"></div>-->
-<!--<div class="blackBg"></div><!-- Box Support Online --><?php //include('templates/box_supportym.tpl'); ?><!-- End Box Support Online -->-->
+<!--<div class="blackBg"></div><!-- Box Support Online --><?php //include('templates/box_supportym.tpl'); ?><!-- End Box Support Online -->
 </body>
 </html>
